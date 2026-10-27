@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Веб-дизайн және веб-әзірлеу бойынша студент портфолиосы.">
+    <title>Менің портфолиом</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Басты бет">portfolio<span>.</span></a>
+        <nav aria-label="Негізгі навигация">
+            <a href="#about">Мен туралы</a>
+            <a href="#projects">Жобалар</a>
+            <a href="#contact">Байланыс</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> Студент портфолиосы</p>
+                <h1>Сәлем! Мен веб-дизайнды <span>үйреніп жүрмін.</span></h1>
+                <p class="hero-description">Мен қарапайым, ыңғайлы және әдемі веб-сайттар жасауға қызығамын. Бұл — менің оқу жобаларым мен мақсаттарымның шағын жинағы.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Жобаларды көру <span aria-hidden="true">↗</span></a>
+                    <a class="text-link" href="#about">Мен туралы →</a>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="Веб-жобаның абстрактілі безендірілуі" role="img">
+                <div class="art-orbit orbit-one"></div>
+                <div class="art-orbit orbit-two"></div>
+                <div class="art-card">
+                    <div class="art-card-top"><span></span><span></span><span></span></div>
+                    <div class="art-code">&lt;hello <b>world</b> /&gt;</div>
+                    <div class="art-line line-wide"></div>
+                    <div class="art-line line-short"></div>
+                    <div class="art-chip">HTML · CSS · GIT</div>
+                </div>
+                <div class="art-star" aria-hidden="true">✳</div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">01 / Мен туралы</p>
+                <h2>Үйрену — күнделікті процесс.</h2>
+            </div>
+            <div class="about-content">
+                <p>Мен веб-дизайнер мамандығында оқимын. Сабақ барысында HTML арқылы бет құрылымын құрып, CSS көмегімен сыртқы көрінісін жасаймын. Сонымен қатар Git және GitHub арқылы жобаларды басқаруды үйреніп жүрмін.</p>
+                <div class="skills" aria-label="Қолданылатын технологиялар">
+                    <span>HTML5</span><span>CSS3</span><span>Git</span><span>GitHub Actions</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">02 / Таңдаулы жұмыстар</p>
+                <h2>Алғашқы жобаларым.</h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card project-violet">
+                    <div class="project-number">01</div>
+                    <div class="project-illustration illustration-layout"><span></span><span></span><span></span></div>
+                    <p class="project-type">WEB DESIGN</p>
+                    <h3>Портфолио беті</h3>
+                    <p>HTML және CSS арқылы жасалған жеке таныстыру беті.</p>
+                </article>
+                <article class="project-card project-peach">
+                    <div class="project-number">02</div>
+                    <div class="project-illustration illustration-shop"><span>SHOP</span><i>＋</i></div>
+                    <p class="project-type">UI CONCEPT</p>
+                    <h3>Онлайн дүкен идеясы</h3>
+                    <p>Өнімдерді анық әрі түсінікті көрсетуге арналған интерфейс тұжырымдамасы.</p>
+                </article>
+                <article class="project-card project-green">
+                    <div class="project-number">03</div>
+                    <div class="project-illustration illustration-terminal"><span>› git status</span><span>✓ working tree clean</span></div>
+                    <p class="project-type">DEVELOPMENT</p>
+                    <h3>Git тәжірибесі</h3>
+                    <p>Нұсқаларды басқару және жобаны GitHub репозиторийіне жіберу.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div>
+                <p class="eyebrow">03 / Байланыс</p>
+                <h2>Бірге жаңа нәрсе жасап көрейік.</h2>
+                <p>Бұл бөлімге өз электрондық поштаңызды немесе әлеуметтік желі сілтемеңізді қоса аласыз.</p>
+            </div>
+            <a class="button button-light" href="mailto:hello@example.com">Хат жазу <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#home">portfolio<span>.</span></a>
+        <p>© 2026 · Оқу мақсатында жасалған жоба</p>
+        <a href="#home">Жоғарыға ↑</a>
+    </footer>
+</body>
+</html>
